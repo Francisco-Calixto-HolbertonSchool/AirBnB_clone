@@ -60,8 +60,9 @@ button:hover {
 }
 
 .locations_hover, .amenities_hover {
-    background-color: #FAFAFA;
     display: none;
+    position: relative;
+    background: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     width: 100%;
@@ -69,6 +70,7 @@ button:hover {
     margin-left: -1px;
     padding-top: 10px;
     padding-bottom: 10px;
+    z-index: 9;
 }
 
 .locations_hover h2 {
